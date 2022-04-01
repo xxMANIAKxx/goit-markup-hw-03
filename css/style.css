@@ -1,0 +1,194 @@
+:root{
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --highlight-color: #2196F3;
+    --main-color: #212121;
+    --secondary-color: #757575;
+    --basic-white: #fff;
+    --basic-black: #000;
+    --footer-text-color: color: rgba(255, 255, 255, 0.6);
+    --background: #2F303A;
+}
+
+body{
+font-family: var(--main-font);
+color: var(--main-color);
+letter-spacing: 0.03em;
+}
+
+.main,
+.footer{
+background: var(--background)
+}
+.logo-link,
+.navmenu-list-link,
+.header-email,
+.header-phone,
+.adres-list-email,
+.adres-list-phone,
+.adres-list-street{
+text-decoration: none;
+}
+.ul-list{
+    list-style: none;
+}
+/* == logo == */
+.logo-color{
+color: var(--highlight-color);
+}
+
+.logo-dark{
+color: var(--basic-black);
+}
+
+.logo-light{
+color: var(--basic-white);
+}
+
+.logo-link{
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+}
+/* == end logo == */
+
+/* == header == */
+.navmenu-list-link,
+.header-email,
+.header-phone{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.43;
+letter-spacing: 0.02em;
+}
+.navmenu-list-link{
+    color: var(--main-color);
+}
+
+.header-email,
+.header-phone{
+color: var(--secondary-color);
+}
+/* == end header == */
+
+/* == highlight == */
+.navmenu-list-link:hover,
+.navmenu-list-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-phone:hover,
+.header-phone:focus,
+.logo-light:focus,
+.logo-light:hover,
+.logo-dark:hover,
+.logo-dark:focus,
+.adres-list-email:focus,
+.adres-list-phone:focus,
+.adres-list-email:hover,
+.adres-list-phone:hover,
+.adres-list-street:hover,
+.adres-list-street:focus{
+color: var(--highlight-color);
+}  
+/* == end highlight == */
+
+/* == buttons == */
+.button-filtr:hover,
+.button-filtr:focus{
+background-color: var(--highlight-color);
+color: var(--basic-white);
+cursor: pointer;
+}
+
+.button-order{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.06em;
+cursor: pointer;
+color: var(--basic-white);
+background-color: var(--highlight-color)
+}
+
+.filter-list-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+}
+/* == end buttons == */
+
+/* == main == */
+.h1-txt{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
+.h2-txt,
+.h5-txt{
+font-weight: 700;
+}
+
+.h2-txt{
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+}
+
+.h5-txt{
+font-size: 14px;
+line-height: 1.143;
+}
+
+.adventages-discription{
+font-size: 14px;
+line-height: 1.714;
+color: var(--secondary-color)
+}
+
+.team-member{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+}
+
+.team-member-discription{
+font-size: 16px;
+line-height: 1.187;
+color: var(--secondary-color)
+}
+
+.project-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2.000;
+letter-spacing: 0.06em;
+}
+
+.project-type{
+font-size: 16px;
+line-height: 1.875;
+color: var(--secondary-color)
+}
+
+/* == end main == */
+
+.adres{
+font-style: normal;
+font-size: 14px;
+line-height: 1.714;
+}
+
+.adres-list-street{
+    color: var(--basic-white);
+}
+
+.adres-list-email,
+.adres-list-phone{
+color: var(--footer-text-color);
+}
