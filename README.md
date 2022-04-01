@@ -1,2 +1,2 @@
 # goit-markup-hw-03
-Michał Kubit zadanie 3
+Praca Domowa 3 - Michał Kubit
